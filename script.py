@@ -18,8 +18,8 @@ def ui():
     with open(file_path, "r", encoding="utf-8") as file:
         default_text = file.read()
 
-    with gr.Accordion("Keep Box", open=False):
-        dummy = gr.Textbox(value=default_text, elem_classes="textbox", lines=15)  # Set default_text as the value
+    with gr.Accordion("Notes", open=False):
+        dummy = gr.Textbox(value=default_text,label="Your permanent notepad", elem_classes="textbox", lines=15)  # Set default_text as the value
         #savetext = gr.Button("Save")
 
     dummy.change(save_button_click, dummy)
