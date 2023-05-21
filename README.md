@@ -5,7 +5,7 @@ https://github.com/oobabooga/text-generation-webui
 Purpose: a simple notepad for text you want to keep, without switching between browser and text editor
 
 The box automatically saves anything you write or paste in it to file keep.txt in text-generation-webui
-And read it back next time you run it. Works in all interface mode - especially useful in --notebook to save parts of the genrated text or whatever.
+And read it back next time you run it. Works in all interface mode - especially useful in --notebook to save parts of the genrated text or whatever else you need.
 
 ![image](https://github.com/FartyPants/Notepad/assets/23346289/30faa0ac-d9dc-4501-8162-25acef1a08b5)
 
