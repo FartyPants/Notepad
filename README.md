@@ -1,5 +1,5 @@
 # notepad extension
-adds dummy textbox to oobabooga web_ui
+adds a notepad box to oobabooga web_ui
 
 Purpose: save or edit parts of generated text you want to keep, without switching between browser and text editor
 
