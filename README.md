@@ -1,6 +1,7 @@
 # dummy_box extension
 adds dummy textbox to oobabooga web_ui
-This is to save or edit parts of generated text you want to keep, without switching between browser and text editor
+
+Purpose: save or edit parts of generated text you want to keep, without switching between browser and text editor
 
 https://github.com/oobabooga/text-generation-webui
 
@@ -17,3 +18,8 @@ then clone this repo
 git clone https://github.com/FartyPants/dummy_box
 ```
 
+You can always load the extension if you add
+
+ --extensions dummy_box
+ 
+ into your webui.py
