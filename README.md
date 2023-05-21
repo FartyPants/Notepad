@@ -1,4 +1,4 @@
-# dummy_box extension
+# notepad extension
 adds dummy textbox to oobabooga web_ui
 
 Purpose: save or edit parts of generated text you want to keep, without switching between browser and text editor
@@ -15,11 +15,11 @@ cd PATH_TO_text-generation-webui/extensions
 ```
 then clone this repo
 ```
-git clone https://github.com/FartyPants/dummy_box
+git clone https://github.com/FartyPants/Notepad
 ```
 
 You can always load the extension if you add
 
- --extensions dummy_box
+ --extensions Notepad
  
  into your webui.py
