@@ -8,7 +8,8 @@ And read it back next time you run it. Works in all interface mode - especially 
 
 The extension can be installed by cloning this repository inside the ../text-generation-webui/extensions folder:
 
+```
 cd PATH_TO_text-generation-webui/extensions
-
 git clone https://github.com/FartyPants/dummy_box
+```
 
