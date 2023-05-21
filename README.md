@@ -1,5 +1,6 @@
 # dummy_box extension
 adds dummy textbox to oobabooga web_ui
+This is to save or edit parts of generated text you want to keep, without switching between browser and text editor
 
 https://github.com/oobabooga/text-generation-webui
 
@@ -10,6 +11,9 @@ The extension can be installed by cloning this repository inside the ../text-gen
 
 ```
 cd PATH_TO_text-generation-webui/extensions
+```
+then clone this repo
+```
 git clone https://github.com/FartyPants/dummy_box
 ```
 
