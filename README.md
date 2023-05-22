@@ -19,7 +19,7 @@ then clone this repo
 git clone https://github.com/FartyPants/Notepad
 ```
 
-You can always load the extension if you add
+If you want to always load the extension on start add
 
  --extensions Notepad
  
