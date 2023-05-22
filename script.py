@@ -15,8 +15,9 @@ def ui():
 
     # Read the contents of the "keep.txt" file
     file_path = Path("keep.txt")
-    with open(file_path, "r", encoding="utf-8") as file:
-        default_text = file.read()
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            default_text = file.read()
 
     with gr.Accordion("Notes", open=False):
         dummy = gr.Textbox(value=default_text,label="Your permanent notepad", elem_classes="textbox", lines=15)  # Set default_text as the value
