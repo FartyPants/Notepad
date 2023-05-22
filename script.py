@@ -6,8 +6,6 @@ def save_text_to_file(text, noteid):
     file_path = Path(file_name)  # Specify the path and name of the output file
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(text)
-   
-    print("Save:", file_path)   
  
 def load_text(noteid):
     file_name = f"notebook{noteid}.txt"
@@ -18,7 +16,7 @@ def load_text(noteid):
     except:
         default_text = ""        
     
-    print("Load:", file_path)    
+    #print("Load:", file_path)    
             
     return default_text
 
