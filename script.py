@@ -18,6 +18,8 @@ def ui():
     try:
         with open(file_path, "r", encoding="utf-8") as file:
             default_text = file.read()
+    except:
+        default_text = ""              
 
     with gr.Accordion("Notes", open=False):
         dummy = gr.Textbox(value=default_text,label="Your permanent notepad", elem_classes="textbox", lines=15)  # Set default_text as the value
