@@ -1,5 +1,5 @@
 # notepad extension
-adds a notepad box to oobabooga web_ui
+adds a very simple notepad box to oobabooga web_ui
 https://github.com/oobabooga/text-generation-webui
 
 Purpose: a multiple-notepad for text you want to keep saved across sessions, without switching between browser and some text editor
